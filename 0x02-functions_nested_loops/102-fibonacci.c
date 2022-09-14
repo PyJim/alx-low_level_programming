@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-
-
 /**
  * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
  * followed by a new line
@@ -18,8 +15,7 @@ for (i = 1; i <= 50; ++i)
 if (j != 20365011074)
 {
 printf("%ld, ", j);
-}
-else							
+}else							
 {
 printf("%ld\n", j);
 }
